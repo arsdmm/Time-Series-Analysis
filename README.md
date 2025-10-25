@@ -30,8 +30,8 @@ Outputs (in `graphs/`):
 
 ### Installation
 ```bash
-    git clone https://github.com/arsdmm/RFM-clustering-of-retail.git
-    cd <your-repo>
+    git clone https://github.com/arsdmm/Time-Series-Analysis.git
+    cd Time-Series-Analysis
     pip install -r requirements.txt
     jupyter notebook
 ```
