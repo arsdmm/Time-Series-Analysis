@@ -181,9 +181,9 @@ Refit on all data and forecast ahead with 95% CI.
 
 ## 6. Key Insights
 
-- **Baselines first.** A forecast is only meaningful if it beats Seasonal-Naive.  
-- **Seasonality is structural.** Weekly cycles required seasonal differencing + seasonal AR/MA; otherwise forecasts were too smooth.  
-- **Event flags (promo/holiday)** help explain spikes but **don’t replace** explicit seasonality.  
+- **Baselines first:** A forecast is only meaningful if it beats Seasonal-Naive.  
+- **Seasonality is structural:** Weekly cycles required seasonal differencing + seasonal AR/MA; otherwise forecasts were too smooth.  
+- **Event flags (promo/holiday):** help explain spikes but **don’t replace** explicit seasonality.  
 - A compact, reproducible pipeline (time split → baselines → SARIMA → forecast) keeps analysis clear and actionable.
 
 ---
